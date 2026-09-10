@@ -1,9 +1,9 @@
 name: Build pwsafe with CMake on macOS
 
 on:
-  push:
-    branches:
-      - master
+  # push:
+  #   branches:
+  #     - master
   pull_request:
     branches:
       - master
