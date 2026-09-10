@@ -7,8 +7,8 @@ name: mac-pwsafe
 # Controls when the action will run. Triggers the workflow on all push requests,
 # or pull request for the master branch, or on demand.
 on:
-  push:
-#    branches: [ master ]
+#   push:
+# #    branches: [ master ]
   pull_request:
     branches: [ master ]
   workflow_dispatch:
