@@ -43,7 +43,7 @@ jobs:
       run: cmake --build build
 
     - name: Test
-      run: cmake --build build --target test -V
+      run: cmake --build build --target test --verbose
 
     - name: Package (Linux)
       if: ${{ runner.os == 'Linux' }}
